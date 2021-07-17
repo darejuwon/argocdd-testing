@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/darejuwon/argocdd-testing/'
     targetRevision: HEAD
-    path: kubernetes
+    path: ./
     directory:
       recurse: true
   destination:
