@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/darejuwon/argocdd-testing'
+    repoURL: 'https://github.com/argoproj/argocd-example-apps.git'
     targetRevision: HEAD
-    path: test
+    path: kustomize-guestbook
     directory:
       recurse: true
   destination:
